@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+<script>
+  // Detect browser language
+  const userLang = navigator.language || navigator.userLanguage;
+
+  // Redirect based on language
+  if (userLang.includes('en-GB')) {
+    window.location.href = "https://www.amazon.co.uk/hz/mycd/digital-console/contentlist/booksAll/dateDsc/";
+  } else {
+    window.location.href = "https://www.amazon.com/hz/mycd/digital-console/contentlist/booksAll/dateDsc/";
+  }
+</script>
+</head>
+<body>
+<p>Redirecting to your regional Amazon...</p>
+</body>
+</html>
